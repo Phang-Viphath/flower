@@ -23,11 +23,11 @@ body{
     -webkit-animation: glow 2.5s ease-in-out infinite;
 }
 @keyframes glow{
-    50%, 90%{
+    0%, 100%{
         color: #fff;
         text-shadow: 0 0 12px #A74AC7, 0 0 50px #A74AC7, 0 0 100px #A74AC7;
     }
-    10%, 100%{
+    10%, 90%{
         color: #111;
         text-shadow: none;
     }
